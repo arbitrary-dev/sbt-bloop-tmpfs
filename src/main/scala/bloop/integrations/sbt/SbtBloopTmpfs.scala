@@ -1,6 +1,7 @@
 package bloop.integrations.sbt
 
 import sbt._
+import Keys._
 import bloop.integrations.sbt.BloopKeys._
 
 object BloopTmpfsPlugin extends AutoPlugin {
