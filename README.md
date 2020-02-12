@@ -1,13 +1,31 @@
 # sbt-bloop-tmpfs
 
-![Not working yet :'(](https://img.shields.io/badge/-Not%20working%20yet%20%3A%27%28-red)
+![v0.1](https://img.shields.io/badge/Maven-v0.1-green)
 
 A plugin to instruct Bloop to compile files on Tmpfs to spare some SSD cycles.
 
-## TODO
+## Usage
 
-- Add a root project name in-between .bloop/ & normalizedName
-- Add instruction
+1. Add the following to `your project/plugins.sbt` or globally at `~/.sbt/**/plugins/*.sbt`:
+   ```
+   addSbtPlugin("com.github.arbitrary-dev" % "sbt-bloop-tmpfs" % "0.1")
+   ```
+2. Observe how files are compiled to `$TMPDIR/.bloop/`
+
+## Local testing
+
+Try one of these or both:
+
+```shell
+sbt publishLocal
+# sbt publishM2
+```
+
+## See
+
 - Link to the original issue:  
   https://github.com/scalacenter/bloop/issues/1031
+
+## TODO
+
 - Publish to Maven
