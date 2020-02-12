@@ -27,4 +27,5 @@ sbt publishLocal
 
 ## TODO
 
-- Publish to Maven
+- Remove unnecessary [artifacts](https://www.scala-sbt.org/1.x/docs/Artifacts.html)
+- Publish to [Maven Central](https://github.com/xerial/sbt-sonatype)
