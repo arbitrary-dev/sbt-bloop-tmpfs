@@ -6,7 +6,7 @@ A plugin to instruct Bloop to compile files on Tmpfs to spare some SSD cycles.
 
 ## Usage
 
-1. Add the following to `your project/plugins.sbt` or globally at `~/.sbt/**/plugins/*.sbt`:
+1. Add the following to your `project/plugins.sbt` or globally at `~/.sbt/**/plugins/*.sbt`
    ```
    addSbtPlugin("com.github.arbitrary-dev" % "sbt-bloop-tmpfs" % "0.1")
    ```
@@ -23,8 +23,7 @@ sbt publishLocal
 
 ## See
 
-- Link to the original issue:  
-  https://github.com/scalacenter/bloop/issues/1031
+- Link to the original issue: https://github.com/scalacenter/bloop/issues/1031
 
 ## TODO
 
